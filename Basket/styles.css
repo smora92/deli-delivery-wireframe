@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+    justify-content: space-around;
+}
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+.incr-btn, .decr-btn {
+    margin: 0 5px;
+}
+
+.incr-btn > a, .decr-btn a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.product-name {
+    margin-left: 15px;
+}
+
+
